@@ -27,7 +27,8 @@
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
 
-        <activity android:name=".PageListing"></activity>
+        <activity android:name=".PageListing" />
+        <activity android:name=".PageViewer"></activity>
     </application>
 
 </manifest>
