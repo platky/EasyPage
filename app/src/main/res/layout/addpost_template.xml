@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/messageTextBox"
+        android:tag="MessageTextBox"
+        android:height="50dp"
+        android:padding="5dp"
+        android:hint="Add your message..."
+        android:layout_margin="10dp" />
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/datePicker"
+        android:layout_below="@+id/messageTextBox"
+        android:layout_alignLeft="@+id/messageTextBox"
+        android:layout_alignStart="@+id/messageTextBox" />
+
+</RelativeLayout>
